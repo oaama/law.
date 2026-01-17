@@ -1,0 +1,75 @@
+📁 Project Files Structure
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📂 e:\pro-angelo\ossama\sites/
+│
+├── 📄 START_HERE.txt           ⭐ اقرأ أولاً!
+├── 📖 QUICK_START.md           ⭐ البدء السريع
+├── 📚 EDITING_GUIDE.md         ⭐ الدليل الشامل
+├── 📋 README.md                ← معلومات المشروع
+├── 📊 INFO.json                ← معلومات سريعة
+│
+├── 📦 package.json             ← المكتبات
+├── ⚙️  tsconfig.json            ← إعدادات TypeScript
+├── 🎨 tailwind.config.ts       ← Tailwind CSS
+├── ⚡ next.config.js           ← Next.js
+├── 📌 .eslintrc.json           ← ESLint
+├── 🚫 .gitignore               ← Git ignore
+│
+├── 📂 src/
+│   ├── 📂 config/
+│   │   └── ⭐ site.config.ts    👈 عدّل من هنا!
+│   │
+│   ├── 📂 app/
+│   │   ├── layout.tsx          (Layout)
+│   │   ├── page.tsx            (Homepage)
+│   │   ├── globals.css         (Styles)
+│   │   ├── about/
+│   │   │   └── page.tsx        (About page)
+│   │   ├── services/
+│   │   │   └── page.tsx        (Services page)
+│   │   └── contact/
+│   │       └── page.tsx        (Contact page)
+│   │
+│   └── 📂 components/
+│       ├── Header.tsx          (Navigation)
+│       ├── Footer.tsx          (Footer)
+│       ├── Button.tsx          (Button)
+│       └── ServiceCard.tsx     (Card)
+│
+├── 📂 public/
+│   └── 🖼️  aa.jpg              (Background image)
+│
+├── 📂 img/
+│   └── 🖼️  aa.jpg              (Source image)
+│
+├── 📂 .next/                   (Built files - auto)
+└── 📂 node_modules/            (Dependencies - auto)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📌 الملفات المهمة للتعديل:
+
+   ⭐ src/config/site.config.ts
+   └─> كل شيء تحتاجه موجود هنا!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 الملفات التوثيقية:
+
+   START_HERE.txt    → نقطة البداية
+   QUICK_START.md    → بدء سريع
+   EDITING_GUIDE.md  → دليل شامل
+   README.md         → معلومات المشروع
+   INFO.json         → بيانات JSON
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 للتعديل:
+
+   1. افتح: src/config/site.config.ts
+   2. غيّر: الفيم المطلوبة
+   3. احفظ: Ctrl+S
+   4. شاهد: الموقع يتحدث! ✨
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
